@@ -13,7 +13,6 @@ A visually appealing Pomodoro timer application to enhance productivity. Designe
   - **Reset**: Resets the timer to the default time.
 - **Completion Alert**:
   - Plays a sound (explosion effect) when the session is complete.
-  - Vibrates on compatible devices (mobile-specific feature).
 - **Responsive Design**: Optimized for mobile and desktop devices.
 
 ## Technologies Used
@@ -37,7 +36,6 @@ A visually appealing Pomodoro timer application to enhance productivity. Designe
         The timer counts down from 25:00 minutes.
         When the countdown ends:
             An alert sound is played (Explosion.mp3).
-            On mobile devices, a vibration pattern is triggered.
 
     State Management:
         Handles Start, Pause, Resume, and Reset states effectively.
@@ -46,7 +44,6 @@ Future Enhancements
 
     Add customizable timer durations for work and break sessions.
     Enable session tracking and productivity analytics.
-    Improve compatibility for desktop notifications.
 
 Project Files
 
