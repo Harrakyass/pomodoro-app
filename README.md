@@ -2,7 +2,7 @@
 
 A visually appealing Pomodoro timer application to enhance productivity. Designed with a beautiful anime-themed interface.
 
-![Pomodoro Timer](./Capture-d’écran-2024-12-23-221531.png)
+![Pomodoro Timer](./screenshot.png)
 
 ## Features
 
@@ -24,7 +24,7 @@ A visually appealing Pomodoro timer application to enhance productivity. Designe
 
 ## Screenshot
 
-![Pomodoro Timer](./Capture-d’écran-2024-12-23-210713.png)
+![Pomodoro Timer](./screenshot.png)
 
 ## How to Run
 
