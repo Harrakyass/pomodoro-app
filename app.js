@@ -1,6 +1,8 @@
 const bells = new Audio('./sounds/Explosion.mp3'); 
 const startBtn = document.querySelector('.btn-start');
 const resumetBtn = document.querySelector('.btn-resume');
+const resumeMessage = document.querySelector('.resume-message');
+const appMessage = document.querySelector('.app-message');
 const resetBtn = document.querySelector('.btn-reset');
 const pauseBtn = document.querySelector('.btn-pause')
 const session = document.querySelector('.minutes');
@@ -55,11 +57,14 @@ const appReset = () => {
 const appPause = () => {
     clearInterval(myInterval);
     state = true;
+    resumeMessage.style.display = 'block';
+    appMessage.style.display = 'none';
     startBtn.style.display = 'none';
     resumetBtn.style.display = 'inline'
 }
 const appResume = () => {
     appTimer();
+    
     startBtn.style.display = 'inline';
     resumetBtn.style.display = 'none';
 }
